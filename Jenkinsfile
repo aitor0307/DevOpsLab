@@ -5,6 +5,12 @@ pipeline{
         maven 'maven'
     }
 
+    environment {
+        artifactId
+        version
+        name
+    }
+
     stages {
         // Specify various stage with in stages
 
